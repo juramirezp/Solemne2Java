@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-10-2016, 17:21:57
+    Author     : juramirezp
+*/
+
+html, body{
+    margin:0;
+    padding:0;
+}
+#msjError{
+    position: absolute;
+    width: 100%;
+    background-color: red;
+    color:white;
+    text-align: center;
+    top:0;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding:10px;
+}
+h1{
+    font-size:2em;
+    width: 100%;
+}
+#ListaAgregar a{
+    text-align: center;
+    vertical-align: middle;
+    font-size:1.6em;
+}
+#ListaVentas, #tablaLogin{
+    width: 50%;
+    margin:0 auto;
+}
+#divLogin, #divLogin h1{
+    text-align: center;
+}
+#divLogin h1{
+    margin-top:2em;
+    padding-bottom:3em;
+}
